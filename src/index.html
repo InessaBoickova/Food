@@ -82,9 +82,12 @@
                 </div>
             </div>
         </section>
+
         <div class="divider"></div>
+
         <section class="offer">
             <div class="bg_yellow"></div>
+
             <div class="container">
                 <div class="offer__text">
                     <h2 class="title">Что мы можем вам предложить?</h2>
@@ -96,6 +99,7 @@
                     <button class="btn btn_dark">Связаться с нами</button>
                 </div>
             </div>
+
             <div class="container">
                 <div class="offer__advantages">
                     <h2>Быстро и полезно</h2>
@@ -107,6 +111,7 @@
                         Мы разработали специальное меню, где учтены все нюансы правильного питания, от баланса БЖУ до их приготовления и дробления рациона.
                     </div>
                 </div>
+
                 <div class="offer__slider">
                     <div class="offer__slider-counter">
                         <div class="offer__slider-prev">
@@ -119,6 +124,7 @@
                             <img src="icons/right.svg" alt="next">
                         </div>
                     </div>
+
                     <div class="offer__slider-wrapper">
                         <div class="offer__slide">
                             <img src="img/slider/pepper.jpg" alt="pepper">
@@ -133,9 +139,63 @@
                             <img src="img/slider/paprika.jpg" alt="paprika">
                         </div> -->
                     </div>
+
                 </div>
             </div>
         </section>
+
+        <div class="divider"></div>
+
+        <section class="calculating">
+            <div class="container">
+                <h2 class="title">Рассчитаем вашу потребность в калориях?</h2>
+                <div class="calculating__wrapper">
+                    <div class="calculating__subtitle">
+                        Ваш пол
+                    </div>
+                    <div class="calculating__choose" id="gender">
+                        <div class="calculating__choose-item calculating__choose-item_active">
+                            Женщина
+                        </div>
+                        <div class="calculating__choose-item">
+                            Мужчина
+                        </div>
+                    </div>
+                    <div class="calculating__subtitle">
+                        Ваша конституция
+                    </div>
+                    <div class="calculating__choose calculating__choose_medium">
+                        <input type="text" id="height" placeholder="Введите рост" class="calculating__choose-item">
+                        <input type="text" id="weight" placeholder="Введите вес"  class="calculating__choose-item">
+                        <input type="text" id="age" placeholder="Введите возраст" class="calculating__choose-item">
+                    </div>
+
+                    <div class="calculating__subtitle">
+                        Выберите вашу физическая активность
+                    </div>
+                    <div class="calculating__choose calculating__choose_big">
+                        <div id="low" class="calculating__choose-item">Низкая активность </div>
+                        <div id="small"  class="calculating__choose-item calculating__choose-item_active">Невысокая активность</div>
+                        <div id="medium" class="calculating__choose-item">Умеренная активность</div>
+                        <div id="high" class="calculating__choose-item">Высокая активность</div>
+                    </div>
+
+                    <div class="calculating__divider"></div>
+
+                    <div class="calculating__total">
+                        <div class="calculating__subtitle">
+                            Ваша суточная норма калорий:
+                        </div>
+                        <div class="calculating__result">
+                            <span>2700</span> ккал
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
      </main>
     <script src="js/main.js"></script>
 </body>
