@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    padding: 0 100px;
+
+    &__left-block {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        min-width: 650px;
+    }
+    &__logo {
+        max-width: 170px;
+        img {
+            width: 100%;
+        }
+    }
+    &__link {
+        position: relative;
+        margin-right: 40px;
+        font-weight: 700;
+        font-size: 18px;
+        color: #303030;
+        &:after{
+            content:'';
+            position: absolute;
+            display: block;
+            width: 110%;
+            height: 8px;
+            background: #54ed39;
+            z-index: -3;
+            left: -5%;
+            bottom: -1px;
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
