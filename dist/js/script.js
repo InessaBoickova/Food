@@ -133,7 +133,7 @@ window.addEventListener('DOMContentLoaded', function () {
     }
   }); // Timer
 
-  const deadLine = '2020-2-25';
+  const deadLine = '2020-02-25';
 
   function getTimeRemaining(endtime) {
     const t = Date.parse(endtime) - Date.parse(new Date()),
